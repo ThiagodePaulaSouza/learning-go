@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"hello/pkg/hello_world"
+	"hello/pkg/quote"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	hello_world.Hello()
+	quote.Fk()
 }
